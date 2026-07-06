@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+*.egg-info/
+
+# Node
+node_modules/
+.next/
+*.tsbuildinfo
+next-env.d.ts
+
+# Env
+.env
+.env.local
+.env*.local
+
+# macOS
+.DS_Store
+
+# Model artifacts / local state
+backend/models/saved/
+backend/paper_trading_state.json
+
+# Logs
+*.log
